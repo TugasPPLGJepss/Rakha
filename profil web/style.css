@@ -30,3 +30,50 @@ nav a:hover{
     background-color: antiquewhite;
     padding: 3rem;
 }
+.hero img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-right: 8rem;
+    
+}
+li{
+    color: white;
+}
+.skill-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+}
+.skill{
+    background: #833AB4;
+background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(250, 92, 92, 1) 47%, rgba(252, 176, 69, 1) 100%);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+}
+   
+
+.container{
+    background-color: rgb(42, 181, 181);
+    padding: 25px;
+    margin-right: 3rem;
+    margin: 1rem;
+}
+.container h2,h3{
+    margin: 0;
+}
+h2{
+    margin-top: 0;
+}
+i{
+    margin-left: 1rem;
+    
+}
+footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+}
