@@ -48,7 +48,7 @@ li{
 }
 .skill{
     background: #833AB4;
-background: linear-gradient(90deg, rgb(251, 251, 251) 0%, rgba(255, 255, 255, 0.733) 47%, rgb(1, 0, 0) 100%);
+background: linear-gradient(90deg, rgba(219, 214, 214, 0.598) 0%, rgba(255, 255, 255, 0.733) 47%, rgb(1, 0, 0) 100%);
     padding: 1rem;
     text-align: center;
     border-radius: 8px;
