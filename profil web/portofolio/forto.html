@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        .navbar{
+            transition: background 0.4s ease;
+            backdrop-filter: blur(5px);
+        }
+        .hero{
+            /* viewport height */
+            height: 100vh;
+            color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url(SSCB.jpg)
+            center/cover no-repeat;
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Rakha</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section class="hero">
+    <div class="hero-content">
+    <img src="" alt="" />
+    <h1>M Rakha Maulana</h1>
+    <p>Siswa RPL</p>
+    <a href="" class="btn btn-warning">Tengok Sini Laa</a>
+    </div>
+</section>
+  </body>
+</html>
